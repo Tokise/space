@@ -43,7 +43,7 @@ public class RegisterServlet extends HttpServlet {
 			pst.setString(4, umobile);
 			
 			int rowCount = pst.executeUpdate();
-			dispatcher = request.getRequestDispatcher("registration.jsp");
+			dispatcher = request.getRequestDispatcher("registration.html");
 			if(rowCount > 0) {
 				request.setAttribute("status", "success");
 			} else {
