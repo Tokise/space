@@ -138,7 +138,7 @@ public class clientData extends HttpServlet {
         }
 
         // Redirect to the home page or a success page
-        response.sendRedirect("index.jsp");
+        response.sendRedirect("index.html");
         
         
     }
